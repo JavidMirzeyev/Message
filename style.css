@@ -14,12 +14,11 @@ body {
   height: 350px;
 }
 #demo .chat h2 {
-  display: flex;
-  justify-content: center;
-  display: table;
+  display: inline-block;
   background: #525dc7;
   border-radius: 15px;
   margin: 15px;
+  text-align: start;
   padding: 7px 25px;
 }
 #demo .chat .message {
@@ -30,6 +29,9 @@ body {
   height: 250px;
   margin: 20px 0 0 25px;
   border-radius: 25px;
+}
+#demo .chat .message .end {
+  text-align: end;
 }
 #demo .sent {
   display: inline-block;
