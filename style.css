@@ -17,11 +17,12 @@ body {
   display: inline-block;
   background: #525dc7;
   border-radius: 15px;
+  color: white;
   word-wrap: break-word;
   margin: 15px;
   max-width: 50%;
   text-align: start;
-  padding: 7px 25px;
+  padding: 8px 25px;
 }
 #demo .chat .message {
   border: solid 1px white;
@@ -44,10 +45,11 @@ body {
 #demo .sent h3 {
   background: #535fca;
   display: flex;
+  color: white;
   justify-content: center;
   border-radius: 20px;
   margin: 0 10px;
-  padding: 7px 30px;
+  padding: 8px 30px;
   width: 40px;
 }
 #demo .text input {
