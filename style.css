@@ -30,7 +30,7 @@ body {
   overflow: auto;
   width: 450px;
   height: 240px;
-  margin: 20px 0 0 25px;
+  margin: 23px 0 0 25px;
   border-radius: 20px;
 }
 #demo .chat .message::-webkit-scrollbar {
@@ -59,6 +59,24 @@ body {
 }
 @media (max-width: 1100px) {
   #demo .chat {
-    margin: 25px 0;
+    margin: 40px 50px 0 0;
+    width: 350px;
+    height: 335px;
+  }
+  #demo .chat .message {
+    width: 300px;
+    height: 230px;
+  }
+  #demo .chat .message h2 {
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 25px;
+  }
+  #demo .sent h3 {
+    padding: 10px 40px;
+  }
+  #demo .text input {
+    margin: 20px 0 0 50px;
+    padding: 8px 10px;
   }
 }/*# sourceMappingURL=style.css.map */
