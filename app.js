@@ -6,7 +6,7 @@ $(document).ready(function () {
         function myel(myclass = "") {
             if (!$.trim($("#inputme").val()) == "") {
                 let vall = $("#inputme").val()
-                    , newH3 = $('<h2> </h2>')
+                    , newH3 = $('<h3> </h3>')
                     , newDiv = $('<div class = "line"> </div')
                     , bigDiv = $(`<div ${myclass}> </div`)
                 $(newH3).append(vall)
@@ -34,7 +34,7 @@ $(document).ready(function () {
         function myel(myclass = "") {
             if (!$.trim($("#inputyou").val()) == "") {
                 let vall = $("#inputyou").val()
-                    , newH3 = $('<h2> </h2>')
+                    , newH3 = $('<h3> </h3>')
                     , newDiv = $('<div class = "line"> </div')
                     , bigDiv = $(`<div ${myclass}> </div`)
                 $(newH3).append(vall)
