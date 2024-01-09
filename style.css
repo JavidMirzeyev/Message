@@ -59,7 +59,7 @@ body {
 }
 @media (max-width: 1000px) {
   #demo .chat {
-    margin: 40px 50px 0 0;
+    margin: 0 50px 40px 0;
     width: 350px;
     height: 335px;
   }
