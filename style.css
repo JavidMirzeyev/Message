@@ -4,7 +4,7 @@ body {
 }
 
 #demo {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 #demo .chat {
   border: solid 1px #a4caff;
@@ -59,7 +59,7 @@ body {
 }
 @media (max-width: 1000px) {
   #demo .chat {
-    margin: 0 50px 40px 0;
+    margin: 0 0 40px 10px;
     width: 350px;
     height: 335px;
   }
